@@ -1,0 +1,224 @@
+/* - MEDIA 1 - */
+
+@media (min-width: 576px) {
+    .index-news {
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .hamburger-wand .hamburger-inner::after {
+    top: 20px !important;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+/* - MEDIA 2 - */
+
+@media (max-width: 575.98px) {
+    .about-title {
+        font-size: 15px;
+    }
+    .contacts-items {
+        margin-top: 15px;
+    }
+    .leadup-center {
+        text-align: center;
+    }
+    .leadup-title {
+        font-size: 22px;
+    }
+    .training {
+        margin-top: 15px;
+    }
+    .training-title {
+        font-size: 24px;
+    }
+    .leadup-help h5 i {
+        margin-top: 10px;
+    }
+    .leadup-bottom {
+        margin-bottom: 15px;
+    }
+    .leadup-doc {
+        float: left;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .leadup-bottom {
+        margin-bottom: 15px;
+    }
+    .leadup-doc {
+        float: left;
+    }
+    .leadup-center {
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .ct-text {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .index-newx-title {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}
+
+/* - MEDIA 3 - */
+
+@media (max-width: 575.98px) {
+    .news-title {
+        font-size: 16px;
+    }
+    .index-news-title {
+        padding: 0;
+    }
+
+    .index-news .card-body .card-title {
+        font-size: 16px;
+    }
+
+    .index-slider {
+        margin-top: 15px;
+    }
+    .index-news-title h5 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+    .index-news-title {
+        margin-top: 15px;
+    }
+    .nav-block {
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100%;
+        z-index: 102;
+    }
+    section {
+        margin-top: 55px;
+    }
+    .contacts-md {
+        margin-top: 15px;
+    }
+    .training-md {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+
+}
+
+/* - HUMBURGER - */
+.hamburger-item {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.hamburger {
+    display: inline-block;
+    cursor: pointer;
+
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+
+    background-color: transparent;
+
+    border: 0;
+
+    margin: 0;
+    overflow: visible;
+}
+
+.hamburger:hover {
+    opacity: 0.95;
+}
+
+.hamburger.is-active:hover {
+    opacity: 0.95;
+}
+
+.hamburger-box {
+    width: 40px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+}
+
+.hamburger-inner {
+    display: block;
+    top: 50%;
+    margin-top: -2px;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    width: 40px;
+    height: 4px;
+
+    border-radius: 1px;
+    background-color: #fff;
+
+    position: absolute;
+}
+
+.hamburger-inner::before, .hamburger-inner::after {
+    content: "";
+    display: block;
+}
+
+.hamburger-inner::before {
+    top: -10px;
+    background-color: #fff;
+}
+
+.hamburger-inner::after {
+    bottom: -10px;
+    background-color: #fff;
+}
+
+.hamburger-wand .hamburger-inner {
+    top: 5px;
+    width: 40px;
+}
+
+.hamburger-wand .hamburger-inner::before {
+    top: 10px;
+
+}
+
+.hamburger-wand .hamburger-inner::after {
+    top: 21px;
+    width: 40px;
+}
+
+.invis-butn {
+    background-color: transparent;
+    border: none;
+}
