@@ -1,1 +1,1 @@
-# bco-pskov.io https://github.com/bco-pskov.io
+# bco-pskov.io https://bco-pskov.github.io/
