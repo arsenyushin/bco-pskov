@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>АНПОО "Балтийский центр охраны" | Псков</title>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!-- LINK -->
+
+<link href="css/main.css" rel="stylesheet">
+<link href="css/media.css" rel="stylesheet">
+<link href="base/fonts.css" rel="stylesheet">
+<link href="base/fonts/font-awesome5-pro/css/all.css" rel="stylesheet">
+
+<!-- FAVICON -->
+<link rel="apple-touch-icon" sizes="180x180" href="base/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="base/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="base/favicon/favicon-16x16.png">
+<link rel="manifest" href="base/favicon/site.webmanifest">
+<link rel="mask-icon" href="base/favicon/safari-pinned-tab.svg" color="#7882ff">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+
+<!-- MODAL -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Форма обратной связи</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         <div class="modal-dialog">
+            <div class="fb-items">
+                <div class="modal-content border-0">
+
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label class="up-label" for="">Ваше имя <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="name" name="name">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="up-label" for="">Электронная почта <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="up-label" for="">Телефон</label>
+                            <input type="text" class="form-control" id="phone">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="up-label" for="">Сообщение <span class="text-danger">*</span></label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+
+                        <div class="custom-file mb-3">
+                          <input type="file" class="custom-file-input" id="customFile">
+                          <label class="custom-file-label" for="customFile">Выберите файл</label>
+                        </div>
+
+                        <button type="submit" name="singup-submit" class="btn btn-dark btn-block py-2">Отправить</button>
+
+                        <div class="text-center mt-2">Нажимая на кнопку «Отправить», я даю согласие на <br class="d-none d-sm-block">
+                        <a href="#" class="text-black-50 text-decoration-none">обработку персональных данных</a>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<header> <!-- HEADER -->
+
+   <div class="top-block d-none d-md-block"><!-- TOP BLOCK -->
+        <div class="container">
+            <div class="row top-items">
+               <div class="col-12 d-flex justify-content-center align-items-center">
+                    <a href="tel:+79116981745"><i class="fas fa-phone"></i>+7(911)698-17-45</a>
+                    <a href="mailto:bco-pskov@mail.ru"><i class="fas fa-envelope"></i>bco-pskov@mail.ru</a>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i>г. Псков ул. Петровская, 4а</a>
+                    <a class="top-vk" href="https://vk.com/bco_pskov" target="_blank">
+                        <i class="fab fa-vk" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-block"><!-- NAV BLOCK -->
+       <div class="container">
+           <div class="row nav-items">
+                <div class="col-12 d-flex justify-content-between align-items-center">
+
+                    <button class="hamburger-item invis-butn triger d-block d-lg-none" type="button">
+                        <div class="hamburger hamburger-wand">
+                            <div class="hamburger-box">
+                                <div class="hamburger-inner"></div> <!-- HAMBURGER -->
+                            </div>
+                        </div>
+                    </button>
+
+                    <div class="nav-logo">
+                        <a href="index.html">
+                            <img class="logo" src="base/img/logo.png">
+                            <div class="float-right">
+                                <h6 class="mb-0 text-white ml-2 d-none d-md-block">
+                                "Балтийский центр охраны"
+                                </h6>
+                                <h6 class="mb-0 text-white ml-2 d-block d-md-none">"БЦО"</h6>
+                            </div>
+                        </a>
+                    </div>
+
+                    <nav class="navbar navbar-expand-lg navbar-light p-0 d-none d-lg-block">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Главная</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Обучение
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="training.html">Обучение</a>
+                                        <a class="dropdown-item" href="leadup.html">Подготовка</a>
+                                        <a class="dropdown-item" href="#">Квалификация</a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">О центре</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Справочник
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Справочник</a>
+                                        <a class="dropdown-item" href="documents.html">Документы</a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contacts.html">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <div class="nav-btn">
+                        <a href="tel:+79116981745">
+                            <button class="btn btn-outline-light d-block d-lg-none"><i class="fa fa-phone p-1" aria-hidden="true"></i></button>
+                        </a>
+                    </div>
+                </div>
+           </div>
+       </div>
+   </div>
+
+</header>
+
+<div class="bg-light d-none d-lg-block"> <!--BREADCRUMBS-->
+    <div class="container">
+         <div class="row">
+
+            <nav aria-label="breadcrumb">
+                <div class="container">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item hover_effect"><a href="index.html">Главная</a></li>
+                        <li class="breadcrumb-item hover_effect"><a href="training.html">Обучение</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Подготовка</li>
+                    </ol>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+</div>
+
+<nav class="sidebar d-block d-lg-none"><!-- SIDEBAR -->
+    <ul>
+        <li><a href="index.html"><i class="fas fa-crosshairs mr-2"></i>Главная</a></li>
+        <li>
+            <a href="#" class="serv-btn">
+                <i class="fas fa-user-shield mr-2"></i>Обучение
+                <span class="fas fa-caret-down second"></span>
+            </a>
+            <ul class="serv-show">
+                <li><a href="training.html">Обучение</a></li>
+                <li><a href="leadup.html">Подготовка</a></li>
+                <li><a href="#">Квалификация</a></li>
+            </ul>
+        </li>
+        <li><a href="about.html"><i class="fas fa-shield-alt mr-2"></i>О центре</a></li>
+
+        <li>
+            <a href="#" class="help-btn">
+                <i class="far fa-question-circle mr-2"></i>Cправочник
+                <span class="fas fa-caret-down third"></span>
+            </a>
+            <ul class="help-show">
+                <li><a href="#">Справочник</a></li>
+                <li><a href="documents.html">Документы</a></li>
+            </ul>
+        </li>
+        <li><a href="contacts.html"><i class="far fa-comment-dots mr-2"></i>Контакты</a></li>
+        <li><a href="news.html"><i class="fas fa-share-alt mr-2"></i>Новости</a></li>
+    </ul>
+</nav>
+
+<section class="leadup"> <!--LEAD UP-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-3">
+
+                <div class="mb-4">
+                    <h3 class="text-center leadup-title mb-4">Проффесиональная подготовка частных охранников</h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo aut sit nulla excepturi, vel numquam velit? Voluptas doloremque rem repellendus dolore odit quibusdam numquam ullam porro est odio. Consequatur, nihil!</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 mb-2">
+                        <h5 class="leadup-center">После подготовки вы станете обладать:</h5>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="">1. Основами действуещего законодательства</p>
+                        <p class="">2. Порядком оказания помощи</p>
+                    </div>
+                    <div class="col-md-6">
+                         <p class="">3. Психологическими нюансами</p>
+                         <p class="">4. Теоретическими правилами и практическими</p>
+                    </div>
+                    <div class="col-md-12 mb-2">
+                        <a href="#" class="text-dark text-decoration-none"><i class="fas fa-file-pdf mr-2"></i> Полный список</a>
+                    </div>
+                </div>
+
+                <div class="row my-4 leadup-plus">
+                    <div class="col-12">
+                        <h5 class="leadup-center mb-2">Преимущества обучения в нашем центре:</h5>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="leadup-plus-mt mb-3">
+                            <i class="fas fa-desktop"></i>Центр имеет все необходимые материально-технические ресурсы для проведения эффективных и безопасных занятий.
+                        </div>
+                        <div class="leadup-plus-mt">
+                            <i class="fas fa-desktop"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error neque iusto nobis eos quibusdam corrupti.
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="leadup-plus-mt mb-3">
+                            <i class="fas fa-desktop"></i>Оборудован современными средствами вычислительной техники и методическими наглядными пособиями.
+                        </div>
+                        <div class="leadup-plus-mt">
+                            <i class="fas fa-desktop"></i>При необходимости слушатели курсов обеспечиваются специальной литературой.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row d-flex justify-content-center mt-5">
+                    <div class="col-md-6 text-center leadup-help">
+                        <h5 class="pb-2">Помощь в трудостройстве <i class="fas fa-shield-alt"></i></h5>
+                        <p class="m-0">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea tempora repellat dignissimos quas debitis distinctio ab ut, architecto aperiam soluta beatae.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-md-6 d-flex justify-content-center">
+                       <div class="card text-white bg-dark leadup-bottom" style="width: 18rem;">
+                         <div class="card-header bg-train text-center">Условия обучения:</div>
+                          <div class="card-body">
+                            <p class="card-text">
+                                ▸ обучение дневное<br>
+                                ▸ занятия проводятся
+                                <button type="button" class="btn leadup-btn" data-toggle="tooltip" data-placement="bottom" title="Eжедневно с 10:00 до 17:00, кроме выходных и праздничных дней">
+                                  <i class="far fa-question-circle"></i>
+                                </button>
+                            </p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-center">
+                       <div class="card text-white bg-dark" style="width: 18rem;">
+                         <div class="card-header bg-train text-center">Необходимые документы:</div>
+                          <div class="card-body">
+                            <p class="card-text">
+                                ▸ паспорт - оригинал/копию<br>
+                                ▸ медицинские справки
+                                <button type="button" class="btn leadup-btn" data-toggle="tooltip" data-placement="bottom" title="002-О/у и 003-О/у">
+                                  <i class="far fa-question-circle"></i>
+                                </button>
+                            </p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+            <div id="accordion">
+                <div class="card about-card">
+                    <div class="card-header ch-about" id="headingTwo">
+                        <h5 class="mb-0">
+                        <button class="btn btn-link about-btn collapsed text-decoration-none" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h5 class="about-title">Документы<span class="float-right"><i class="fas fa-angle-down"></i></span></h5>
+                        </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body text-center">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <a href="#" alt="Заявление" class="leadup-doc">
+                                        <i class="fas fa-file-pdf pr-3"></i>
+                                    Заявление
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="#" alt="Заявление" class="leadup-doc">
+                                    <i class="fas fa-file-pdf pr-3"></i>
+                                    Договор
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+            <table class="table table-bordered table-dark m-0">
+              <thead>
+                <tr>
+                <td colspan="4" class="text-center">
+                    Профессиональная подготовка частных охранников
+                </td>
+                </tr>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Разряд</th>
+                  <th scope="col">Время</th>
+                  <th scope="col">Цена</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>4 разряд</td>
+                  <td>98 часов</td>
+                  <td>9 999 ₽</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>5 разряд</td>
+                  <td>128 часов</td>
+                  <td>9 999 ₽</td>
+                </tr>
+                <tr>
+              </tbody>
+            </table>
+
+        </div><!-- row -->
+    </div><!-- container -->
+</section><!-- leadup -->
+
+<footer class="footer"><!-- FOOTER -->
+    <div class="container">
+        <div class="row footer-items">
+            <div class="col-md-4">
+                <h6 class="ft-title">Остались вопросы?</h6>
+                <p class="ft-text">По всем интересующим вас вопросам вы можете обращаться к нам.
+                Звоните или пишите, и не забывайте про наш офис.
+                Вы можете задать свои вопросы  через контактную форму
+                или написав нам почту.</p>
+                <button class="btn btn-outline-light mt-2 mb-3" type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class="fab fa-telegram-plane"></i>Написать нам</button>
+            </div>
+            <div class="col-md-4">
+                <h6 class="ft-title">Информация</h6>
+                <a href="news.html">Новости</a>
+                <a href="documents.html">Документы</a>
+                <a href="#">Политика конфиденциальности</a>
+
+                <h6 class="ft-title mt-2">Присоединяйся</h6>
+
+                <ul class="ft-list">
+                    <li class="ft-item">
+                        <a class="ft-link" href="#"><i class="fab fa-vk"></i></a>
+                    </li>
+                    <li class="ft-item">
+                        <a class="ft-link" href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-md-4">
+                <div class="ft-contacts">
+                    <h6 class="ft-title">Контакты</h6>
+                    <a href="tel:+79116981745"><i class="fas fa-phone"></i>+7(911)698-17-45</a>
+                    <a href="mailto:bco-pskov@mail.ru"><i class="fas fa-envelope"></i>bco-pskov@mail.ru</a>
+                    <a href="#"><i class="fas fa-home"></i>г. Псков ул. Петровская, 4а</a>
+                    <h6 class="ft-title mt-2">Режим работы:</h6>
+                    <p class="ft-text"><i class="fas fa-alarm-clock"></i>c 10:00 до 17:00 <br>сб-вс: выходной</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="bottom-block">
+    <div class="container">
+        <div class="row bottom-items">
+            <div class="col-12 py-3 d-flex justify-content-center">
+                © АНПОО "Балтийский центр охраны"
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<script src="base/jquery.maskedinput.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
