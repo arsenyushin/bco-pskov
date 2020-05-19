@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    user-select: none;
+/*    user-select: none;*/
     box-sizing: border-box;
     font-family:'Open Sans', sans-serif;
 }
@@ -237,6 +237,12 @@
 /*-- BREADCRUMB
 --*/
 
+.breadcrumb {
+    background: #fff;
+    padding: 10px 0;
+    font-size: 13px;
+}
+
 .breadcrumb-item a {
     color: #000;
 }
@@ -354,6 +360,11 @@
 .about-btn:hover {
     color: #000;
     text-decoration: none;
+}
+
+.about-btn:focus {
+    outline: 0;
+    box-shadow: none;
 }
 
 .about-btn h5 {
